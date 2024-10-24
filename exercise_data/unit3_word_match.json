@@ -1,0 +1,602 @@
+[
+    {
+        "exercise_number": 1,
+        "pairs": [
+            {
+                "index": 1,
+                "jp": "ここ",
+                "kana": "ここ",
+                "romaji": "koko",
+                "thai": "ที่นี่, ตรงนี้ (สถานที่ที่ผู้พูดอยู่)"
+            },
+            {
+                "index": 2,
+                "jp": "そこ",
+                "kana": "そこ",
+                "romaji": "soko",
+                "thai": "ที่นั่น, ตรงนั้น (สถานที่ที่ผู้ฟังอยู่)"
+            },
+            {
+                "index": 3,
+                "jp": "あそこ",
+                "kana": "あそこ",
+                "romaji": "asoko",
+                "thai": "ที่โน่น, ตรงโน้น (สถานที่ที่อยู่ไกลจากทั้งผู้พูดและผู้ฟัง)"
+            },
+            {
+                "index": 4,
+                "jp": "どこ",
+                "kana": "どこ",
+                "romaji": "doko",
+                "thai": "ที่ไหน, ตรงไหน"
+            },
+            {
+                "index": 5,
+                "jp": "こちら",
+                "kana": "こちら",
+                "romaji": "kochira",
+                "thai": "ทางนี้ ตรงนี้ (เป็นวิธีพูดแบบสุภาพของ ここ)"
+            }
+        ]
+    },
+    {
+        "exercise_number": 2,
+        "pairs": [
+            {
+                "index": 1,
+                "jp": "そちら",
+                "kana": "そちら",
+                "romaji": "sochira",
+                "thai": "ทางนั้น, ตรงนั้น (เป็นวิธีพูดแบบสุภาพของ"
+            },
+            {
+                "index": 2,
+                "jp": "あちら",
+                "kana": "あちら",
+                "romaji": "achira",
+                "thai": "ทางโน้น, ตรงโน้น (เป็นวิธีพูดแบบสุภาพของあそこ）"
+            },
+            {
+                "index": 3,
+                "jp": "どちら",
+                "kana": "どちら",
+                "romaji": "dochira",
+                "thai": "ทางไหน, ที่ไหน (เป็นวิธีพูดแบบสุภาพของどこ）"
+            },
+            {
+                "index": 4,
+                "jp": "教室",
+                "kana": "きょうしつ",
+                "romaji": "kyoushitsu",
+                "thai": "ห้องเรียน"
+            },
+            {
+                "index": 5,
+                "jp": "食堂",
+                "kana": "しょくどう",
+                "romaji": "shokudou",
+                "thai": "โรงอาหาร, ร้านขายอาหารในโรงเรียนหรือบริษัท"
+            }
+        ]
+    },
+    {
+        "exercise_number": 3,
+        "pairs": [
+            {
+                "index": 1,
+                "jp": "事務所",
+                "kana": "じむしょ",
+                "romaji": "jimusho",
+                "thai": "สำนักงาน, ออฟฟิศ"
+            },
+            {
+                "index": 2,
+                "jp": "会議室",
+                "kana": "かいぎしつ",
+                "romaji": "kaigishitsu",
+                "thai": "ห้องประชุม"
+            },
+            {
+                "index": 3,
+                "jp": "受付",
+                "kana": "うけつけ",
+                "romaji": "uketsuke",
+                "thai": "ที่ติดต่อสอบถาม, โต๊ะประชาสัมพันธ์"
+            },
+            {
+                "index": 4,
+                "jp": "ロビー",
+                "kana": "ロビー",
+                "romaji": "robiー",
+                "thai": "ล็อบบี้"
+            },
+            {
+                "index": 5,
+                "jp": "部屋",
+                "kana": "へや",
+                "romaji": "heya",
+                "thai": "ห้อง"
+            }
+        ]
+    },
+    {
+        "exercise_number": 4,
+        "pairs": [
+            {
+                "index": 1,
+                "jp": "トイレ",
+                "kana": "トイレ",
+                "romaji": "toire",
+                "thai": "ห้องน้ำ, ห้องส้วม, สุขา"
+            },
+            {
+                "index": 2,
+                "jp": "階段",
+                "kana": "かいだん",
+                "romaji": "kaidan",
+                "thai": "บันได"
+            },
+            {
+                "index": 3,
+                "jp": "エレベーター",
+                "kana": "エレベーター",
+                "romaji": "erebeーtaー",
+                "thai": "ลิฟต์"
+            },
+            {
+                "index": 4,
+                "jp": "エスカレーター",
+                "kana": "エスカレーター",
+                "romaji": "esukareーtaー",
+                "thai": "บันไดเลื่อน"
+            },
+            {
+                "index": 5,
+                "jp": "自動販売機",
+                "kana": "じどうはんばいき",
+                "romaji": "jidouhanbaiki",
+                "thai": "เครื่องขายสินค้าอัตโนมัติ"
+            }
+        ]
+    },
+    {
+        "exercise_number": 5,
+        "pairs": [
+            {
+                "index": 1,
+                "jp": "電話",
+                "kana": "でんわ",
+                "romaji": "denwa",
+                "thai": "เครื่องโทรศัพท์, โทรศัพท์"
+            },
+            {
+                "index": 2,
+                "jp": "国",
+                "kana": "くに",
+                "romaji": "kuni",
+                "thai": "ประเทศ"
+            },
+            {
+                "index": 3,
+                "jp": "会社",
+                "kana": "かいしゃ",
+                "romaji": "kaisha",
+                "thai": "บริษัท"
+            },
+            {
+                "index": 4,
+                "jp": "うち",
+                "kana": "うち",
+                "romaji": "uchi",
+                "thai": "บ้าน"
+            },
+            {
+                "index": 5,
+                "jp": "靴",
+                "kana": "くつ",
+                "romaji": "kutsu",
+                "thai": "รองเท้า"
+            }
+        ]
+    },
+    {
+        "exercise_number": 6,
+        "pairs": [
+            {
+                "index": 1,
+                "jp": "ネクタイ",
+                "kana": "ネクタイ",
+                "romaji": "nekutai",
+                "thai": "เนกไท"
+            },
+            {
+                "index": 2,
+                "jp": "ワイン",
+                "kana": "ワイン",
+                "romaji": "wain",
+                "thai": "ไวน์"
+            },
+            {
+                "index": 3,
+                "jp": "売り場",
+                "kana": "うりば",
+                "romaji": "uriba",
+                "thai": "เคาน์เตอร์ขายสินค้า, สถานที่ขายสินค้าในห้างสรรพสินค้า"
+            },
+            {
+                "index": 4,
+                "jp": "ちか",
+                "kana": "ちか",
+                "romaji": "chika",
+                "thai": "ใต้ดิน, ชั้นใต้ดิน"
+            },
+            {
+                "index": 5,
+                "jp": "一階",
+                "kana": "いっかい",
+                "romaji": "iっkai",
+                "thai": "ชั้น -"
+            }
+        ]
+    },
+    {
+        "exercise_number": 7,
+        "pairs": [
+            {
+                "index": 1,
+                "jp": "何階",
+                "kana": "なんかい",
+                "romaji": "nankai",
+                "thai": "ชั้นที่เท่าไร, ชั้นอะไร"
+            },
+            {
+                "index": 2,
+                "jp": "一円",
+                "kana": "一えん",
+                "romaji": "一en",
+                "thai": "— เยน"
+            },
+            {
+                "index": 3,
+                "jp": "いくら",
+                "kana": "いくら",
+                "romaji": "ikura",
+                "thai": "ราคาเท่าไร"
+            },
+            {
+                "index": 4,
+                "jp": "百",
+                "kana": "ひゃく",
+                "romaji": "hyaku",
+                "thai": "ร้อย"
+            },
+            {
+                "index": 5,
+                "jp": "千",
+                "kana": "せん",
+                "romaji": "sen",
+                "thai": "พัน"
+            }
+        ]
+    },
+    {
+        "exercise_number": 8,
+        "pairs": [
+            {
+                "index": 1,
+                "jp": "万",
+                "kana": "まん",
+                "romaji": "man",
+                "thai": "หมื่น"
+            },
+            {
+                "index": 2,
+                "jp": "すみません",
+                "kana": "すみません",
+                "romaji": "sumimasen",
+                "thai": "ขอโทษครับ/ค่ะ (ใช้เมื่อจะเรียกคน)"
+            },
+            {
+                "index": 3,
+                "jp": "どうも",
+                "kana": "どうも",
+                "romaji": "doumo",
+                "thai": "ขอบคุณ"
+            },
+            {
+                "index": 4,
+                "jp": "いらっしゃいませ",
+                "kana": "いらっしゃいませ",
+                "romaji": "irasshaimase",
+                "thai": "เชิญครับ/ค่ะ, ยินดีต้อนรับ (พนักงานร้านค้ากล่าวต้อนรับลูกค้า)"
+            },
+            {
+                "index": 5,
+                "jp": "見せてください",
+                "kana": "みせてください",
+                "romaji": "misetekudasai",
+                "thai": "ขอดู [~] หน่อย"
+            }
+        ]
+    },
+    {
+        "exercise_number": 9,
+        "pairs": [
+            {
+                "index": 1,
+                "jp": "じゃ",
+                "kana": "じゃ",
+                "romaji": "ja",
+                "thai": "เอาละ, งั้น, งั้นก็, ถ้าอย่างนั้น"
+            },
+            {
+                "index": 2,
+                "jp": "ください",
+                "kana": "ください",
+                "romaji": "kudasai",
+                "thai": "ขอ [~]"
+            },
+            {
+                "index": 3,
+                "jp": "イタリア",
+                "kana": "イタリア",
+                "romaji": "itaria",
+                "thai": "อิตาลี"
+            },
+            {
+                "index": 4,
+                "jp": "スイス",
+                "kana": "スイス",
+                "romaji": "suisu",
+                "thai": "สวิตเซอร์แลนด์"
+            },
+            {
+                "index": 5,
+                "jp": "フランス",
+                "kana": "フランス",
+                "romaji": "furansu",
+                "thai": "ฝรั่งเศส"
+            }
+        ]
+    },
+    {
+        "exercise_number": 10,
+        "pairs": [
+            {
+                "index": 1,
+                "jp": "ジャカルタ",
+                "kana": "ジャカルタ",
+                "romaji": "jakaruta",
+                "thai": "จาการ์ตา"
+            },
+            {
+                "index": 2,
+                "jp": "バンコク",
+                "kana": "バンコク",
+                "romaji": "bankoku",
+                "thai": "กรุงเทพฯ"
+            },
+            {
+                "index": 3,
+                "jp": "ベルリン",
+                "kana": "ベルリン",
+                "romaji": "berurin",
+                "thai": "เบอร์ลิน"
+            },
+            {
+                "index": 4,
+                "jp": "新大阪",
+                "kana": "しんおおさか",
+                "romaji": "shinoosaka",
+                "thai": "ชื่อสถานีรถไฟในจังหวัดโอซาก้า"
+            },
+            {
+                "index": 5,
+                "jp": "ここ",
+                "kana": "ここ",
+                "romaji": "koko",
+                "thai": "ที่นี่, ตรงนี้ (สถานที่ที่ผู้พูดอยู่)"
+            }
+        ]
+    },
+    {
+        "exercise_number": 11,
+        "pairs": [
+            {
+                "index": 1,
+                "jp": "そこ",
+                "kana": "そこ",
+                "romaji": "soko",
+                "thai": "ที่นั่น, ตรงนั้น (สถานที่ที่ผู้ฟังอยู่)"
+            },
+            {
+                "index": 2,
+                "jp": "あそこ",
+                "kana": "あそこ",
+                "romaji": "asoko",
+                "thai": "ที่โน่น, ตรงโน้น (สถานที่ที่อยู่ไกลจากทั้งผู้พูดและผู้ฟัง)"
+            },
+            {
+                "index": 3,
+                "jp": "どこ",
+                "kana": "どこ",
+                "romaji": "doko",
+                "thai": "ที่ไหน, ตรงไหน"
+            },
+            {
+                "index": 4,
+                "jp": "こちら",
+                "kana": "こちら",
+                "romaji": "kochira",
+                "thai": "ทางนี้ ตรงนี้ (เป็นวิธีพูดแบบสุภาพของ ここ)"
+            },
+            {
+                "index": 5,
+                "jp": "そちら",
+                "kana": "そちら",
+                "romaji": "sochira",
+                "thai": "ทางนั้น, ตรงนั้น (เป็นวิธีพูดแบบสุภาพของ"
+            }
+        ]
+    },
+    {
+        "exercise_number": 12,
+        "pairs": [
+            {
+                "index": 1,
+                "jp": "あちら",
+                "kana": "あちら",
+                "romaji": "achira",
+                "thai": "ทางโน้น, ตรงโน้น (เป็นวิธีพูดแบบสุภาพของあそこ）"
+            },
+            {
+                "index": 2,
+                "jp": "どちら",
+                "kana": "どちら",
+                "romaji": "dochira",
+                "thai": "ทางไหน, ที่ไหน (เป็นวิธีพูดแบบสุภาพของどこ）"
+            },
+            {
+                "index": 3,
+                "jp": "教室",
+                "kana": "きょうしつ",
+                "romaji": "kyoushitsu",
+                "thai": "ห้องเรียน"
+            },
+            {
+                "index": 4,
+                "jp": "食堂",
+                "kana": "しょくどう",
+                "romaji": "shokudou",
+                "thai": "โรงอาหาร, ร้านขายอาหารในโรงเรียนหรือบริษัท"
+            },
+            {
+                "index": 5,
+                "jp": "事務所",
+                "kana": "じむしょ",
+                "romaji": "jimusho",
+                "thai": "สำนักงาน, ออฟฟิศ"
+            }
+        ]
+    },
+    {
+        "exercise_number": 13,
+        "pairs": [
+            {
+                "index": 1,
+                "jp": "会議室",
+                "kana": "かいぎしつ",
+                "romaji": "kaigishitsu",
+                "thai": "ห้องประชุม"
+            },
+            {
+                "index": 2,
+                "jp": "受付",
+                "kana": "うけつけ",
+                "romaji": "uketsuke",
+                "thai": "ที่ติดต่อสอบถาม, โต๊ะประชาสัมพันธ์"
+            },
+            {
+                "index": 3,
+                "jp": "ロビー",
+                "kana": "ロビー",
+                "romaji": "robiー",
+                "thai": "ล็อบบี้"
+            },
+            {
+                "index": 4,
+                "jp": "部屋",
+                "kana": "へや",
+                "romaji": "heya",
+                "thai": "ห้อง"
+            },
+            {
+                "index": 5,
+                "jp": "トイレ",
+                "kana": "トイレ",
+                "romaji": "toire",
+                "thai": "ห้องน้ำ, ห้องส้วม, สุขา"
+            }
+        ]
+    },
+    {
+        "exercise_number": 14,
+        "pairs": [
+            {
+                "index": 1,
+                "jp": "階段",
+                "kana": "かいだん",
+                "romaji": "kaidan",
+                "thai": "บันได"
+            },
+            {
+                "index": 2,
+                "jp": "エレベーター",
+                "kana": "エレベーター",
+                "romaji": "erebeーtaー",
+                "thai": "ลิฟต์"
+            },
+            {
+                "index": 3,
+                "jp": "エスカレーター",
+                "kana": "エスカレーター",
+                "romaji": "esukareーtaー",
+                "thai": "บันไดเลื่อน"
+            },
+            {
+                "index": 4,
+                "jp": "自動販売機",
+                "kana": "じどうはんばいき",
+                "romaji": "jidouhanbaiki",
+                "thai": "เครื่องขายสินค้าอัตโนมัติ"
+            },
+            {
+                "index": 5,
+                "jp": "電話",
+                "kana": "でんわ",
+                "romaji": "denwa",
+                "thai": "เครื่องโทรศัพท์, โทรศัพท์"
+            }
+        ]
+    },
+    {
+        "exercise_number": 15,
+        "pairs": [
+            {
+                "index": 1,
+                "jp": "国",
+                "kana": "くに",
+                "romaji": "kuni",
+                "thai": "ประเทศ"
+            },
+            {
+                "index": 2,
+                "jp": "会社",
+                "kana": "かいしゃ",
+                "romaji": "kaisha",
+                "thai": "บริษัท"
+            },
+            {
+                "index": 3,
+                "jp": "うち",
+                "kana": "うち",
+                "romaji": "uchi",
+                "thai": "บ้าน"
+            },
+            {
+                "index": 4,
+                "jp": "靴",
+                "kana": "くつ",
+                "romaji": "kutsu",
+                "thai": "รองเท้า"
+            },
+            {
+                "index": 5,
+                "jp": "ネクタイ",
+                "kana": "ネクタイ",
+                "romaji": "nekutai",
+                "thai": "เนกไท"
+            }
+        ]
+    }
+]

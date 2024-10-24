@@ -1,0 +1,92 @@
+[
+    {
+        "ID": "U3_P88_1_0",
+        "Q_ID": "U3_HF_0",
+        "Sentence": {
+            "JP": "わたし（は）マイク・ミラーです。",
+            "Kana": "わたし（は）マイク・ミラーです。",
+            "Romaji": "watashi（wa）maiku・miraーdesu.",
+            "Translate": "I'm Mike Miller.",
+            "TH": NaN
+        },
+        "Blank_Sentence": {
+            "Kana": "わたし（1）マイク・ミラーです。",
+            "Romaji": "watashi（1）maiku・miraーdesu."
+        }
+    },
+    {
+        "ID": "U3_P88_1_1",
+        "Q_ID": "U3_HF_1",
+        "Sentence": {
+            "JP": "A：受付（は）どこです（か）。\nB：あちらです。",
+            "Kana": "A：うけつけ（は）どこです（か）。\nB：あちらです。",
+            "Romaji": "A：uketsuke（wa）doko　desu (ka).\nB：achira　desu.",
+            "Translate": "A: Where is the reception?\nB: Over there.",
+            "TH": NaN
+        },
+        "Blank_Sentence": {
+            "Kana": "A：うけつけ（1）どこです（2）。\nB：あちらです。",
+            "Romaji": "A：uketsuke（1）doko　desu (2).\nB：achira　desu."
+        }
+    },
+    {
+        "ID": "U3_P88_1_2",
+        "Q_ID": "U3_HF_2",
+        "Sentence": {
+            "JP": "B：ワイン、どうぞ。ドイツ（の） ワインです。\nA：ありがとう　ございます。",
+            "Kana": "B：ワイン、どうぞ。ドイツ（の） ワインです。\nA：ありがとう　ございます。",
+            "Romaji": "B：wain、douzo。doitsu（no） wain　desu.\nA：arigatou　gozaimasu.",
+            "Translate": "B: Wine, please. It's German wine.\nA: Thank you very much.",
+            "TH": NaN
+        },
+        "Blank_Sentence": {
+            "Kana": "B：ワイン、どうぞ。ドイツ（1） ワインです。\nA：ありがとう　ございます。",
+            "Romaji": "B：wain、douzo。doitsu（1） wain　desu.\nA：arigatou　gozaimasu."
+        }
+    },
+    {
+        "ID": "U3_P88_1_3",
+        "Q_ID": "U3_HF_3",
+        "Sentence": {
+            "JP": "A：あの　方（は） どなたですか。\nB：パワーでんき（の） シュミットさんです。\nA：あの　方（も）パワー電気（の）社員ですか。\nB：いいえ。あの　方（は）ブラジルエアー（の）サントスさんです",
+            "Kana": "A：あの　かた（は） どなたですか。\nB：パワーでんき（の） シュミットさんです。\nA：あの　かた（も）パワーでんき（の）しゃいんですか。\nB：いいえ。あの　かた（は）ブラジルエアー（の）サントスさんです",
+            "Romaji": "A：ano　kata（wa） donata　desu　ka.\nB：pawaーdenki（no） shumitto　san　desu.\nA：ano　kata（mo）pawaーdenki（no）shain　desu　ka.\nB：iie。ano　kata（ha）burajirueaー（no）santosu　san　desu.",
+            "Translate": "A: Who is that person?\nB: Mr. Schmidt of Power Electric.\nA: Is that person also a power electrician?\nB: No. That person is Mr. Santos of Brazil Air.",
+            "TH": NaN
+        },
+        "Blank_Sentence": {
+            "Kana": "A：あの　かた（1） どなたですか。\nB：パワーでんき（2） シュミットさんです。\nA：あの　かた（3）パワーでんき（4）しゃいんですか。\nB：いいえ。あの　かた（5）ブラジルエアー（6）サントスさんです",
+            "Romaji": "A：ano　kata（1） donata　desu　ka.\nB：pawaーdenki（2） shumitto　san　desu.\nA：ano　kata（3）pawaーdenki（4）shain　desu　ka.\nB：iie。ano　kata（5）burajirueaー（6）santosu　san　desu."
+        }
+    },
+    {
+        "ID": "U3_P88_1_4",
+        "Q_ID": "U3_HF_4",
+        "Sentence": {
+            "JP": "A：パワー電気（は）なん（の）会社ですか。\nB：コンピューター（の）会社です 。",
+            "Kana": "A：パワーでんき（は）なん（の）かいしゃですか。\nB：コンピューター（の）かいしゃです 。",
+            "Romaji": "A：pawaーdenki（ha）nan（no）kaisha　desu　ka.\nB：konnpyu-ta-（no）kaisha　desu .",
+            "Translate": "A: What kind of power electricity is there?\nB: It's a computer.",
+            "TH": NaN
+        },
+        "Blank_Sentence": {
+            "Kana": "A：パワーでんき（1）なん（2）かいしゃですか。\nB：コンピューター（3）かいしゃです 。",
+            "Romaji": "A：pawaーdenki（1）nan（2）kaisha　desu　ka.\nB：konnpyu-ta-（3）kaisha　desu ."
+        }
+    },
+    {
+        "ID": "U3_P88_1_5",
+        "Q_ID": "U3_HF_5",
+        "Sentence": {
+            "JP": "B : これ（は）ミラーさん（の）かさですか。\nA：いいえ、違います。\nC：あ、すみません。わたし（の）です。\nB：この　かぎ（も） あなた（の）ですか。\nC：いいえ、わたし（の）じゃありません。\nA：あ、それ（は）わたし（の）車（の）かぎです。",
+            "Kana": "B : これ（は）ミラーさん（の）かさですか。\nA：いいえ、ちがいます。\nC：あ、すみません。わたし（の）です。\nB：このかぎ（も） あなた（の）ですか。\nC：いいえ、わたし（の）じゃありません。\nA：あ、それ（は）わたし（の）くるま（の）かぎです。",
+            "Romaji": "B : kore（wa）miraーsan（no）kasa　desu　ka.\nA：iie、chigaimasu.\nC：a、sumimasen。watashi（no）desu.\nB：kono　kagi（mo） anata（no）desuka.\nC：iie、watashi（no）ja arimasen.\nA：a、sore（wa）watashi（no）kuruma（no）kagi desu.",
+            "Translate": "B: Is this Mr. Miller's umbrella?\nA: No, it's not.\nC: Oh, sorry. It's me.\nB: Is this key also yours?\nC: No, it's not me.\nA: Ah, that's my car key.",
+            "TH": NaN
+        },
+        "Blank_Sentence": {
+            "Kana": "B : これ（1）ミラーさん（2）かさですか。\nA：いいえ、ちがいます。\nC：あ、すみません。わたし（3）です。\nB：このかぎ（4） あなた（5）ですか。\nC：いいえ、わたし（6）じゃありません。\nA：あ、それ（7）わたし（8）くるま（9）かぎです。",
+            "Romaji": "B : kore（1）miraーsan（2）kasa　desu　ka.\nA：iie、chigaimasu.\nC：a、sumimasen。watashi（3）desu.\nB：kono　kagi（4） anata（5）desuka.\nC：iie、watashi（6）ja arimasen.\nA：a、sore（7）watashi（8）kuruma（9）kagi desu."
+        }
+    }
+]

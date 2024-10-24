@@ -1,0 +1,602 @@
+[
+    {
+        "exercise_number": 1,
+        "pairs": [
+            {
+                "index": 1,
+                "jp": "行きます",
+                "kana": "いきます",
+                "romaji": "ikimasu",
+                "thai": "ไป"
+            },
+            {
+                "index": 2,
+                "jp": "来ます",
+                "kana": "きます",
+                "romaji": "kimasu",
+                "thai": "มา"
+            },
+            {
+                "index": 3,
+                "jp": "帰ります",
+                "kana": "かえります",
+                "romaji": "kaerimasu",
+                "thai": "กลับ"
+            },
+            {
+                "index": 4,
+                "jp": "学校",
+                "kana": "がっこう",
+                "romaji": "gakkou",
+                "thai": "โรงเรียน"
+            },
+            {
+                "index": 5,
+                "jp": "スーパー",
+                "kana": "スーパー",
+                "romaji": "suーpaー",
+                "thai": "ซูเปอร์มาร์เกต"
+            }
+        ]
+    },
+    {
+        "exercise_number": 2,
+        "pairs": [
+            {
+                "index": 1,
+                "jp": "駅",
+                "kana": "えき",
+                "romaji": "eki",
+                "thai": "สถานีรถไฟ"
+            },
+            {
+                "index": 2,
+                "jp": "飛行機",
+                "kana": "ひこうき",
+                "romaji": "hikouki",
+                "thai": "เครื่องบิน"
+            },
+            {
+                "index": 3,
+                "jp": "船",
+                "kana": "ふね",
+                "romaji": "fune",
+                "thai": "เรือ"
+            },
+            {
+                "index": 4,
+                "jp": "電車",
+                "kana": "でんしゃ",
+                "romaji": "densha",
+                "thai": "รถไฟฟ้า"
+            },
+            {
+                "index": 5,
+                "jp": "地下鉄",
+                "kana": "ちかてつ",
+                "romaji": "chikatetsu",
+                "thai": "รถไฟใต้ดิน"
+            }
+        ]
+    },
+    {
+        "exercise_number": 3,
+        "pairs": [
+            {
+                "index": 1,
+                "jp": "新幹線",
+                "kana": "しんかんせん",
+                "romaji": "shinkansen",
+                "thai": "รถไฟชิงกันเซน"
+            },
+            {
+                "index": 2,
+                "jp": "バス",
+                "kana": "バス",
+                "romaji": "basu",
+                "thai": "รถบัส, รถเมล์, รถประจำทาง"
+            },
+            {
+                "index": 3,
+                "jp": "タクシー",
+                "kana": "タクシー",
+                "romaji": "takushiー",
+                "thai": "รถแท็กซี่"
+            },
+            {
+                "index": 4,
+                "jp": "自転車",
+                "kana": "じてんしゃ",
+                "romaji": "jitensha",
+                "thai": "จักรยาน"
+            },
+            {
+                "index": 5,
+                "jp": "歩いて",
+                "kana": "あるいて",
+                "romaji": "aruite",
+                "thai": "เดิน (ไป)"
+            }
+        ]
+    },
+    {
+        "exercise_number": 4,
+        "pairs": [
+            {
+                "index": 1,
+                "jp": "人",
+                "kana": "ひと",
+                "romaji": "hito",
+                "thai": "คน"
+            },
+            {
+                "index": 2,
+                "jp": "友達",
+                "kana": "ともだち",
+                "romaji": "tomodachi",
+                "thai": "เพื่อน"
+            },
+            {
+                "index": 3,
+                "jp": "彼",
+                "kana": "かれ",
+                "romaji": "kare",
+                "thai": "เขา (ผู้ชาย), แฟน (ผู้ชาย)"
+            },
+            {
+                "index": 4,
+                "jp": "彼女",
+                "kana": "かのじょ",
+                "romaji": "kanojo",
+                "thai": "เขา (ผู้หญิง), เธอ, แฟน (ผู้หญิง)"
+            },
+            {
+                "index": 5,
+                "jp": "家族",
+                "kana": "かぞく",
+                "romaji": "kazoku",
+                "thai": "ครอบครัว"
+            }
+        ]
+    },
+    {
+        "exercise_number": 5,
+        "pairs": [
+            {
+                "index": 1,
+                "jp": "一人で",
+                "kana": "ひとりで",
+                "romaji": "hitoride",
+                "thai": "คนเดียว, โดยลำพัง"
+            },
+            {
+                "index": 2,
+                "jp": "先週",
+                "kana": "せんしゅう",
+                "romaji": "senshuu",
+                "thai": "สัปดาห์ที่แล้ว, อาทิตย์ที่แล้ว"
+            },
+            {
+                "index": 3,
+                "jp": "今週",
+                "kana": "こんしゅう",
+                "romaji": "konshuu",
+                "thai": "สัปดาห์นี้, อาทิตย์นี้"
+            },
+            {
+                "index": 4,
+                "jp": "来週",
+                "kana": "らいしゅう",
+                "romaji": "raishuu",
+                "thai": "สัปดาห์หน้า, อาทิตย์หน้า"
+            },
+            {
+                "index": 5,
+                "jp": "先月",
+                "kana": "せんげつ",
+                "romaji": "sengetsu",
+                "thai": "เดือนที่แล้ว"
+            }
+        ]
+    },
+    {
+        "exercise_number": 6,
+        "pairs": [
+            {
+                "index": 1,
+                "jp": "今月",
+                "kana": "こんげつ",
+                "romaji": "kongetsu",
+                "thai": "เดือนนี้"
+            },
+            {
+                "index": 2,
+                "jp": "来月",
+                "kana": "らいげつ",
+                "romaji": "raigetsu",
+                "thai": "เดือนหน้า"
+            },
+            {
+                "index": 3,
+                "jp": "去年",
+                "kana": "きょねん",
+                "romaji": "kyonen",
+                "thai": "ปีที่แล้ว"
+            },
+            {
+                "index": 4,
+                "jp": "ことし",
+                "kana": "ことし",
+                "romaji": "kotoshi",
+                "thai": "ปีนี้"
+            },
+            {
+                "index": 5,
+                "jp": "来年",
+                "kana": "らいねん",
+                "romaji": "rainen",
+                "thai": "ปีหน้า"
+            }
+        ]
+    },
+    {
+        "exercise_number": 7,
+        "pairs": [
+            {
+                "index": 1,
+                "jp": "年",
+                "kana": "とし",
+                "romaji": "toshi",
+                "thai": "ปี -"
+            },
+            {
+                "index": 2,
+                "jp": "何年",
+                "kana": "なんねん",
+                "romaji": "nannen",
+                "thai": "ปีอะไร"
+            },
+            {
+                "index": 3,
+                "jp": "-月",
+                "kana": "-がつ",
+                "romaji": "-gatsu",
+                "thai": "เดือน -"
+            },
+            {
+                "index": 4,
+                "jp": "何月",
+                "kana": "なんがつ",
+                "romaji": "nangatsu",
+                "thai": "เดือนอะไร"
+            },
+            {
+                "index": 5,
+                "jp": "1日",
+                "kana": "ついたち",
+                "romaji": "tsuitachi",
+                "thai": "วันที่ 1"
+            }
+        ]
+    },
+    {
+        "exercise_number": 8,
+        "pairs": [
+            {
+                "index": 1,
+                "jp": "2日",
+                "kana": "ふつか",
+                "romaji": "futsuka",
+                "thai": "วันที่ 2, 2 วัน"
+            },
+            {
+                "index": 2,
+                "jp": "3日",
+                "kana": "みつか",
+                "romaji": "mitsuka",
+                "thai": "วันที่ 3, 3 วัน"
+            },
+            {
+                "index": 3,
+                "jp": "4日",
+                "kana": "よつか",
+                "romaji": "yotsuka",
+                "thai": "วันที่ 4, 4 วัน"
+            },
+            {
+                "index": 4,
+                "jp": "5日",
+                "kana": "いつか",
+                "romaji": "itsuka",
+                "thai": "วันที่ 5, 5 วัน"
+            },
+            {
+                "index": 5,
+                "jp": "6日",
+                "kana": "むいか",
+                "romaji": "muika",
+                "thai": "วันที่ 6, 6 วัน"
+            }
+        ]
+    },
+    {
+        "exercise_number": 9,
+        "pairs": [
+            {
+                "index": 1,
+                "jp": "7日",
+                "kana": "なのか",
+                "romaji": "nanoka",
+                "thai": "วันที่ 7, 7 วัน"
+            },
+            {
+                "index": 2,
+                "jp": "8日",
+                "kana": "ようか",
+                "romaji": "youka",
+                "thai": "วันที่ 8, 8 วัน"
+            },
+            {
+                "index": 3,
+                "jp": "9日",
+                "kana": "ここのか",
+                "romaji": "kokonoka",
+                "thai": "วันที่ 9. 9 วัน"
+            },
+            {
+                "index": 4,
+                "jp": "10日",
+                "kana": "とおか",
+                "romaji": "tooka",
+                "thai": "วันที่ 10, 10 วัน"
+            },
+            {
+                "index": 5,
+                "jp": "14日",
+                "kana": "しゅうよっか",
+                "romaji": "shuuyokka",
+                "thai": "วันที่ 14, 14 วัน"
+            }
+        ]
+    },
+    {
+        "exercise_number": 10,
+        "pairs": [
+            {
+                "index": 1,
+                "jp": "20日",
+                "kana": "はつか",
+                "romaji": "hatsuka",
+                "thai": "วันที่ 20, 20 วัน"
+            },
+            {
+                "index": 2,
+                "jp": "24日",
+                "kana": "にしゅうよっか",
+                "romaji": "nishuuyokka",
+                "thai": "วันที่ 24, 24 วัน"
+            },
+            {
+                "index": 3,
+                "jp": "ー日",
+                "kana": "ーにち",
+                "romaji": "ーnichi",
+                "thai": "วันที่ -,- วัน (จำนวน)"
+            },
+            {
+                "index": 4,
+                "jp": "何日",
+                "kana": "なんにち",
+                "romaji": "nannichi",
+                "thai": "วันที่เท่าไร, กี่วัน"
+            },
+            {
+                "index": 5,
+                "jp": "いつ",
+                "kana": "につ",
+                "romaji": "nitsu",
+                "thai": "เมื่อไร"
+            }
+        ]
+    },
+    {
+        "exercise_number": 11,
+        "pairs": [
+            {
+                "index": 1,
+                "jp": "誕生日",
+                "kana": "たんじょうび",
+                "romaji": "tannjoubi",
+                "thai": "วันเกิด"
+            },
+            {
+                "index": 2,
+                "jp": "そうですね",
+                "kana": "そうですね",
+                "romaji": "soudesune",
+                "thai": "ใช่ (แสดงความเห็นด้วย)"
+            },
+            {
+                "index": 3,
+                "jp": "どうも　ありがとう　ございました",
+                "kana": "どうも　ありがとう　ございました",
+                "romaji": "doumo　arigatou　gozaimashita",
+                "thai": "ขอบคุณ (มาก)"
+            },
+            {
+                "index": 4,
+                "jp": "どういたしまして",
+                "kana": "どういたしまして",
+                "romaji": "douitashimashite",
+                "thai": "ไม่เป็นไร"
+            },
+            {
+                "index": 5,
+                "jp": "ー番線",
+                "kana": "ーばんせん",
+                "romaji": "ーbansen",
+                "thai": "ชานชาลาหมายเลข -, ชานชาลาที่ -"
+            }
+        ]
+    },
+    {
+        "exercise_number": 12,
+        "pairs": [
+            {
+                "index": 1,
+                "jp": "次の",
+                "kana": "つぎの",
+                "romaji": "tsugino",
+                "thai": "ต่อไป"
+            },
+            {
+                "index": 2,
+                "jp": "普通",
+                "kana": "ふつう",
+                "romaji": "futsuu",
+                "thai": "รถไฟธรรมดา"
+            },
+            {
+                "index": 3,
+                "jp": "急行",
+                "kana": "きゅうこう",
+                "romaji": "kyuukou",
+                "thai": "รถไฟด่วน"
+            },
+            {
+                "index": 4,
+                "jp": "ときゅう",
+                "kana": "ときゅう",
+                "romaji": "tokyuu",
+                "thai": "รถไฟด่วนพิเศษ"
+            },
+            {
+                "index": 5,
+                "jp": "行きます",
+                "kana": "いきます",
+                "romaji": "ikimasu",
+                "thai": "ไป"
+            }
+        ]
+    },
+    {
+        "exercise_number": 13,
+        "pairs": [
+            {
+                "index": 1,
+                "jp": "来ます",
+                "kana": "きます",
+                "romaji": "kimasu",
+                "thai": "มา"
+            },
+            {
+                "index": 2,
+                "jp": "帰ります",
+                "kana": "かえります",
+                "romaji": "kaerimasu",
+                "thai": "กลับ"
+            },
+            {
+                "index": 3,
+                "jp": "学校",
+                "kana": "がっこう",
+                "romaji": "gakkou",
+                "thai": "โรงเรียน"
+            },
+            {
+                "index": 4,
+                "jp": "スーパー",
+                "kana": "スーパー",
+                "romaji": "suーpaー",
+                "thai": "ซูเปอร์มาร์เกต"
+            },
+            {
+                "index": 5,
+                "jp": "駅",
+                "kana": "えき",
+                "romaji": "eki",
+                "thai": "สถานีรถไฟ"
+            }
+        ]
+    },
+    {
+        "exercise_number": 14,
+        "pairs": [
+            {
+                "index": 1,
+                "jp": "飛行機",
+                "kana": "ひこうき",
+                "romaji": "hikouki",
+                "thai": "เครื่องบิน"
+            },
+            {
+                "index": 2,
+                "jp": "船",
+                "kana": "ふね",
+                "romaji": "fune",
+                "thai": "เรือ"
+            },
+            {
+                "index": 3,
+                "jp": "電車",
+                "kana": "でんしゃ",
+                "romaji": "densha",
+                "thai": "รถไฟฟ้า"
+            },
+            {
+                "index": 4,
+                "jp": "地下鉄",
+                "kana": "ちかてつ",
+                "romaji": "chikatetsu",
+                "thai": "รถไฟใต้ดิน"
+            },
+            {
+                "index": 5,
+                "jp": "新幹線",
+                "kana": "しんかんせん",
+                "romaji": "shinkansen",
+                "thai": "รถไฟชิงกันเซน"
+            }
+        ]
+    },
+    {
+        "exercise_number": 15,
+        "pairs": [
+            {
+                "index": 1,
+                "jp": "バス",
+                "kana": "バス",
+                "romaji": "basu",
+                "thai": "รถบัส, รถเมล์, รถประจำทาง"
+            },
+            {
+                "index": 2,
+                "jp": "タクシー",
+                "kana": "タクシー",
+                "romaji": "takushiー",
+                "thai": "รถแท็กซี่"
+            },
+            {
+                "index": 3,
+                "jp": "自転車",
+                "kana": "じてんしゃ",
+                "romaji": "jitensha",
+                "thai": "จักรยาน"
+            },
+            {
+                "index": 4,
+                "jp": "歩いて",
+                "kana": "あるいて",
+                "romaji": "aruite",
+                "thai": "เดิน (ไป)"
+            },
+            {
+                "index": 5,
+                "jp": "人",
+                "kana": "ひと",
+                "romaji": "hito",
+                "thai": "คน"
+            }
+        ]
+    }
+]

@@ -1,0 +1,185 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #58CC02; /* สีเขียวสดใสคล้ายกับ Duolingo */
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.5rem; /* ปรับขนาดฟอนต์ให้ใหญ่ขึ้น */
+    border-bottom: 5px solid #45a049; /* เพิ่มเส้นขอบด้านล่าง */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+    text-align: center;
+    background-color: #f4f4f4; /* สีพื้นหลังอ่อน */
+    min-height: calc(100vh - 160px); /* ปรับความสูงขั้นต่ำเพื่อให้ footer อยู่ด้านล่าง */
+}
+
+h2 {
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9rem; /* ปรับขนาดฟอนต์ให้เล็กลง */
+}
+
+/* เพิ่มสไตล์สำหรับฟอร์ม */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px; /* กำหนดความกว้างสูงสุด */
+    margin: 20px auto; /* จัดกลางหน้า */
+    padding: 20px;
+    background: #fff; /* พื้นหลังฟอร์ม */
+    border-radius: 5px; /* มุมโค้ง */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* เงา */
+}
+
+label {
+    margin: 10px 0 5px; /* ระยะห่างของ label */
+}
+
+input {
+    padding: 10px; /* ขนาดของ input */
+    margin-bottom: 10px; /* ระยะห่างระหว่าง input */
+    border: 1px solid #ccc; /* ขอบของ input */
+    border-radius: 4px; /* มุมโค้ง */
+}
+
+button {
+    background-color: #58CC02; /* สีเขียวสดใสคล้ายกับ Duolingo */
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin: 1rem 0;
+    cursor: pointer;
+    border-radius: 25px; /* เพิ่มความโค้งมนให้กับปุ่ม */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* เพิ่ม transition สำหรับการเปลี่ยนสีและขนาด */
+}
+
+button:hover {
+    background-color: #45a049; /* สีเขียวเข้มขึ้นเมื่อ hover */
+    transform: scale(1.05); /* ขยายขนาดเล็กน้อยเมื่อ hover */
+}
+
+p {
+    text-align: center; /* จัดกลางข้อความ */
+}
+
+/* เพิ่มสไตล์สำหรับยูนิต */
+h3 {
+    margin-top: 20px; /* ระยะห่างบน */
+    color: #333; /* สีข้อความ */
+}
+
+ul {
+    list-style-type: none; /* ไม่มีสัญลักษณ์ในรายการ */
+    padding: 0; /* ไม่ให้มี padding */
+}
+
+ul li {
+    margin: 5px 0; /* ระยะห่างในรายการ */
+}
+
+ul li a {
+    text-decoration: none; /* ไม่มีเส้นใต้ */
+    color: #0066cc; /* สีของลิงก์ */
+}
+
+ul li a:hover {
+    text-decoration: underline; /* เส้นใต้เมื่อชี้ */
+}
+
+/* styles.css */
+
+/* ตั้งค่าพื้นฐานสำหรับ body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* ตั้งค่าสำหรับ header */
+header {
+    background-color: #58CC02; /* สีเขียวสดใสคล้ายกับ Duolingo */
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.5rem; /* ปรับขนาดฟอนต์ให้ใหญ่ขึ้น */
+    border-bottom: 5px solid #45a049; /* เพิ่มเส้นขอบด้านล่าง */
+}
+
+/* ตั้งค่าสำหรับ main */
+main {
+    padding: 2rem;
+    text-align: center;
+    background-color: #f4f4f4; /* สีพื้นหลังอ่อน */
+    min-height: calc(100vh - 160px); /* ปรับความสูงขั้นต่ำเพื่อให้ footer อยู่ด้านล่าง */
+}
+
+/* ตั้งค่าสำหรับปุ่ม */
+button {
+    background-color: #58CC02; /* สีเขียวสดใสคล้ายกับ Duolingo */
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin: 1rem 0;
+    cursor: pointer;
+    border-radius: 25px; /* เพิ่มความโค้งมนให้กับปุ่ม */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* เพิ่ม transition สำหรับการเปลี่ยนสีและขนาด */
+}
+
+button:hover {
+    background-color: #45a049; /* สีเขียวเข้มขึ้นเมื่อ hover */
+    transform: scale(1.05); /* ขยายขนาดเล็กน้อยเมื่อ hover */
+}
+
+/* ตั้งค่าสำหรับ footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9rem; /* ปรับขนาดฟอนต์ให้เล็กลง */
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>แดชบอร์ด</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}"> <!-- ลิงก์ไปยังไฟล์ CSS -->
+</head>
+<body>
+    <header>
+        <h1>ยินดีต้อนรับ {{ username }}!</h1>
+    </header>
+    <main>
+        <p>ยินดีต้อนรับสู่แดชบอร์ดของคุณ</p>
+        <a href="{{ url_for('select_lesson') }}">
+            <button>ไปยังหน้าบทเรียน</button>
+        </a>
+    </main>
+    <footer>
+        <p>&copy; 2024 เว็บทบทวนภาษาญี่ปุ่น | สงวนลิขสิทธิ์</p>
+    </footer>
+</body>
+</html>

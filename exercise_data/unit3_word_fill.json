@@ -1,0 +1,208 @@
+[
+    {
+        "ID": "U3_P87_5_0",
+        "Q_ID": "U3_WF_1",
+        "Sentence": {
+            "JP": NaN,
+            "Kana": "それは (なん) ですか 。\n....じしょです。",
+            "Romaji": "sore wa (nan) desuka .\n....jisho desu.",
+            "TH": NaN
+        },
+        "Blank_Sentence": {
+            "Kana": "それは () ですか 。\n....じしょです。",
+            "Romaji": "sore wa () desuka 。\n....jisho desu。"
+        },
+        "Answer": {
+            "Kana": [
+                "なん"
+            ],
+            "Romaji": [
+                "nan"
+            ]
+        }
+    },
+    {
+        "ID": "U3_P87_5_1",
+        "Q_ID": "U3_WF_2",
+        "Sentence": {
+            "JP": NaN,
+            "Kana": "すみません。トイレは (どちら,どこ) ですか。\n....あちらです。",
+            "Romaji": "sumimasen. toire wa (dochira,doko) desu ka.\n....achira desu.",
+            "TH": NaN
+        },
+        "Blank_Sentence": {
+            "Kana": "すみません。トイレは () ですか。\n....あちらです。",
+            "Romaji": "sumimasen。toire wa () desu ka。\n....achira desu。"
+        },
+        "Answer": {
+            "Kana": [
+                "どちら",
+                "どこ"
+            ],
+            "Romaji": [
+                "dochira",
+                "doko"
+            ]
+        }
+    },
+    {
+        "ID": "U3_P87_5_2",
+        "Q_ID": "U3_WF_3",
+        "Sentence": {
+            "JP": NaN,
+            "Kana": "ミラーさんは (どこ,どちら) ですか。\n...かいぎしつです。",
+            "Romaji": "miraー san wa (doko,dochira) desu ka.\n...kaigishitsu desu.",
+            "TH": NaN
+        },
+        "Blank_Sentence": {
+            "Kana": "ミラーさんは () ですか。\n...かいぎしつです。",
+            "Romaji": "miraー san wa () desu ka。\n...kaigishitsu desu。"
+        },
+        "Answer": {
+            "Kana": [
+                "どこ",
+                "どちら"
+            ],
+            "Romaji": [
+                "doko",
+                "dochira"
+            ]
+        }
+    },
+    {
+        "ID": "U3_P87_5_3",
+        "Q_ID": "U3_WF_4",
+        "Sentence": {
+            "JP": NaN,
+            "Kana": "カメラうりばは (なんかい,どこ) ですか。\n....5かいです。",
+            "Romaji": "kamera uriba wa (nankai,doko) desu ka.\n....5 kai desu.",
+            "TH": NaN
+        },
+        "Blank_Sentence": {
+            "Kana": "カメラうりばは () ですか。\n....5かいです。",
+            "Romaji": "kamera uriba wa () desu ka。\n....5 kai desu。"
+        },
+        "Answer": {
+            "Kana": [
+                "なんかい",
+                "どこ"
+            ],
+            "Romaji": [
+                "nankai",
+                "doko"
+            ]
+        }
+    },
+    {
+        "ID": "U3_P87_5_4",
+        "Q_ID": "U3_WF_5",
+        "Sentence": {
+            "JP": NaN,
+            "Kana": "おくには (どちら) ですか。\n....ドイツです。",
+            "Romaji": "okuni wa (dochira) desu ka.\n....doitsu desu.",
+            "TH": NaN
+        },
+        "Blank_Sentence": {
+            "Kana": "おくには () ですか。\n....ドイツです。",
+            "Romaji": "okuni wa () desu ka。\n....doitsu desu。"
+        },
+        "Answer": {
+            "Kana": [
+                "どちら"
+            ],
+            "Romaji": [
+                "dochira"
+            ]
+        }
+    },
+    {
+        "ID": "U3_P87_5_5",
+        "Q_ID": "U3_WF_6",
+        "Sentence": {
+            "JP": NaN,
+            "Kana": "かいしゃは (どちら,どこ) ですか。\n....パワーでんきです。",
+            "Romaji": "kaisha wa (dochira,doko) desu ka.\n....pawaーdenki desu.",
+            "TH": NaN
+        },
+        "Blank_Sentence": {
+            "Kana": "かいしゃは () ですか。\n....パワーでんきです。",
+            "Romaji": "kaisha wa () desu ka。\n....pawaーdenki desu。"
+        },
+        "Answer": {
+            "Kana": [
+                "どちら",
+                "どこ"
+            ],
+            "Romaji": [
+                "dochira",
+                "doko"
+            ]
+        }
+    },
+    {
+        "ID": "U3_P87_5_6",
+        "Q_ID": "U3_WF_7",
+        "Sentence": {
+            "JP": NaN,
+            "Kana": "パワーでんきは (なん) の かいしゃですか。\n....コンピューターのかいしゃです。",
+            "Romaji": "pawaーdenki wa (nan) no kaisha desu ka.\n....konpiューtaーnokaishadesu.",
+            "TH": NaN
+        },
+        "Blank_Sentence": {
+            "Kana": "パワーでんきは () の かいしゃですか。\n....コンピューターのかいしゃです。",
+            "Romaji": "pawaーdenki wa () no kaisha desu ka。\n....konpiューtaーnokaishadesu。"
+        },
+        "Answer": {
+            "Kana": [
+                "なん"
+            ],
+            "Romaji": [
+                "nan"
+            ]
+        }
+    },
+    {
+        "ID": "U3_P87_5_7",
+        "Q_ID": "U3_WF_8",
+        "Sentence": {
+            "JP": NaN,
+            "Kana": "これは (どこ) の ワインですか。\n....イタリアの　ワインです。",
+            "Romaji": "kore wa (doko) no wain desu ka.\n....itariano waindesu.",
+            "TH": NaN
+        },
+        "Blank_Sentence": {
+            "Kana": "これは () の ワインですか。\n....イタリアの　ワインです。",
+            "Romaji": "kore wa () no wain desu ka。\n....itariano waindesu。"
+        },
+        "Answer": {
+            "Kana": [
+                "どこ"
+            ],
+            "Romaji": [
+                "doko"
+            ]
+        }
+    },
+    {
+        "ID": "U3_P87_5_8",
+        "Q_ID": "U3_WF_9",
+        "Sentence": {
+            "JP": NaN,
+            "Kana": "この ワインは (いくら) ですか。\n....2,800えんです。",
+            "Romaji": "kono wain wa (ikura) desu ka.\n....2,800en desu.",
+            "TH": NaN
+        },
+        "Blank_Sentence": {
+            "Kana": "この ワインは () ですか。\n....2,800えんです。",
+            "Romaji": "kono wain wa () desu ka。\n....2,800en desu。"
+        },
+        "Answer": {
+            "Kana": [
+                "いくら"
+            ],
+            "Romaji": [
+                "ikura"
+            ]
+        }
+    }
+]

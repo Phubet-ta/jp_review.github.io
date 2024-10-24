@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เลือกบทเรียน</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}"> <!-- ลิงก์ไปยังไฟล์ CSS -->
+</head>
+<body>
+    <header>
+        <h1>เลือกบทเรียน</h1>
+    </header>
+
+    <main>
+        <h2>ยูนิตต่าง ๆ</h2>
+
+        <section id="units">
+            <h3>unit 3</h3>
+            <ul>
+                <li><a href="{{ url_for('word_match', unit=3, exercise_number=1) }}">Word Match</a></li>
+<!--                <li><a href="{{ url_for('qa_match', unit=3, exercise_number=1) }}">QA Match</a></li>
+                <li><a href="{{ url_for('word_choice', unit=3, exercise_number=1) }}">Word Choice</a></li>
+                <li><a href="{{ url_for('word_fill', unit=3, exercise_number=1) }}">Word Fill</a></li>
+                <li><a href="{{ url_for('help_fill', unit=3, exercise_number=1) }}">Help Fill</a></li>
+                <li><a href="{{ url_for('th_to_jp', unit=3, exercise_number=1) }}">Translate TH</a></li>
+                <li><a href="{{ url_for('jp_to_th', unit=3, exercise_number=1) }}">Translate JP</a></li>-->
+            </ul>
+
+            <h3>unit 4</h3>
+            <ul>
+                <li><a href="{{ url_for('word_match', unit=4, exercise_number=1) }}">Word Match</a></li>
+                <!--
+                                <li><a href="{{ url_for('qa_match', unit=4, exercise_number=1) }}">QA Match</a></li>
+                                <li><a href="{{ url_for('word_choice', unit=4, exercise_number=1) }}">Word Choice</a></li>
+                                <li><a href="{{ url_for('word_fill', unit=4, exercise_number=1) }}">Word Fill</a></li>
+                                <li><a href="{{ url_for('help_fill', unit=4, exercise_number=1) }}">Help Fill</a></li>
+                                <li><a href="{{ url_for('th_to_jp', unit=4, exercise_number=1) }}">Translate TH</a></li>
+                                <li><a href="{{ url_for('jp_to_th', unit=4, exercise_number=1) }}">Translate JP</a></li>
+                -->
+            </ul>
+
+            <h3>unit 5</h3>
+            <ul>
+                <li><a href="{{ url_for('word_match', unit=5, exercise_number=1) }}">Word Match</a></li>
+            <!--
+                <li><a href="{{ url_for('qa_match', unit=5, exercise_number=1) }}">QA Match</a></li>
+                <li><a href="{{ url_for('word_choice', unit=5, exercise_number=1) }}">Word Choice</a></li>
+                <li><a href="{{ url_for('word_fill', unit=5, exercise_number=1) }}">Word Fill</a></li>
+                <li><a href="{{ url_for('help_fill', unit=5, exercise_number=1) }}">Help Fill</a></li>
+                <li><a href="{{ url_for('th_to_jp', unit=5, exercise_number=1) }}">Translate TH</a></li>
+                <li><a href="{{ url_for('jp_to_th', unit=5, exercise_number=1) }}">Translate JP</a></li>
+            -->
+            </ul>
+
+            <!-- เพิ่มยูนิตและบทเรียนเพิ่มเติมตามต้องการ -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 เว็บทบทวนภาษาญี่ปุ่น</p>
+    </footer>
+</body>
+</html>

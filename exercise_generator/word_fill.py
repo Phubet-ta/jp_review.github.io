@@ -1,0 +1,65 @@
+import pandas as pd
+import json
+
+# ฟังก์ชันสำหรับเขียนไฟล์ JSON จาก Excel ที่รองรับคำตอบเดี่ยวและหลายคำ
+def excel_to_json(excel_file, sheet_name, output_file):
+    # อ่านข้อมูลจากไฟล์ Excel
+    df = pd.read_excel(excel_file, sheet_name=sheet_name)
+    
+    # ตรวจสอบคอลัมน์ที่จำเป็นทั้งหมดมีอยู่
+    required_columns = [
+        'ID', 'Q_ID', 'Sen_JP', 'Sen_Kana', 'Sen_Romaji', 'Sen_th', 
+        'Sen_kana_blank', 'Sen_Romaji_blank', 'Ans_Kana', 'Ans_Romaji'
+    ]
+    if not all(col in df.columns for col in required_columns):
+        raise ValueError(f"คอลัมน์ไม่ครบ ควรมี: {', '.join(required_columns)}")
+    
+    # แปลงข้อมูลเป็น list ของ dictionary
+    data = []
+    for _, row in df.iterrows():
+        # ถ้าในคำตอบมีคอมมา ให้แยกออกมาเป็นหลายคำ
+        ans_kana = row['Ans_Kana']
+        ans_romaji = row['Ans_Romaji']
+        
+        # แปลงค่า NaN เป็นสตริง 'nan'
+        if pd.isna(ans_kana):
+            ans_kana = 'nan'
+        if pd.isna(ans_romaji):
+            ans_romaji = 'nan'
+        
+        ans_kana_list = [ans.strip() for ans in ans_kana.split(',') if ans.strip()]
+        ans_romaji_list = [ans.strip() for ans in ans_romaji.split(',') if ans.strip()]
+
+        question_data = {
+            "ID": row['ID'],
+            "Q_ID": row['Q_ID'],
+            "Sentence": {
+                "JP": row['Sen_JP'],
+                "Kana": row['Sen_Kana'],
+                "Romaji": row['Sen_Romaji'],
+                "TH": row['Sen_th']
+            },
+            "Blank_Sentence": {
+                "Kana": row['Sen_kana_blank'],
+                "Romaji": row['Sen_Romaji_blank']
+            },
+            "Answer": {
+                "Kana": ans_kana_list,  # คำตอบเดี่ยวหรือหลายคำ
+                "Romaji": ans_romaji_list  # คำตอบเดี่ยวหรือหลายคำ
+            }
+        }
+        data.append(question_data)
+    
+    # บันทึกข้อมูลเป็นไฟล์ JSON
+    with open(output_file, 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=4)
+
+    print(f"บันทึกไฟล์ JSON ลงใน: {output_file}")
+
+# การใช้งานฟังก์ชัน
+filename = 'unit3.xlsx'  # ชื่อไฟล์ Excel ที่จะอ่าน
+sheet_name = 'Word_Fill'  # ชื่อแผ่นที่ต้องการอ่าน
+output_file = f'{filename.split(".")[0]}_word_fill.json'  # ชื่อไฟล์ JSON ที่จะบันทึก
+
+# เรียกใช้ฟังก์ชัน
+excel_to_json(filename, sheet_name, output_file)

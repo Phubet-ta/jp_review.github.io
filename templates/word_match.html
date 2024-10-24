@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Word Match - Exercise {{ exercise_number }}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='word_match.css') }}">
+  <style>
+    .container {
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+    }
+
+    .column {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .word-box {
+      margin-bottom: 10px;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <div style="text-align: right;"> 
+    <button type="button" onclick="toggleRomaji()">Show Romaji</button>
+  </div>    
+  <h1>Word Match</h1>
+  <form method="POST">
+    <div class="container">
+      <div class="column">
+        {% for kana in kana_words %}
+        <div class="word-box">{{ loop.index }}. {{ kana }}
+          <span class="romaji" style="display: none;">({{ romaji_words[loop.index - 1] }})</span>
+        </div>
+        {% endfor %}
+      </div>
+
+      <div class="column">
+        <div class="matching-area">
+            {% for i in range(kana_words|length) %}
+            <div>
+              <label for="answer_{{ i+1 }}">{{ i+1 }}. </label>
+              <select id="answer_{{ i+1 }}" name="answer_{{ i+1 }}"> 
+                <option value="">เลือกคำตอบ</option>
+                {% for thai in shuffled_thai_words %}
+                <option value="{{ thai }}">{{ thai }}</option>
+                {% endfor %}
+              </select>
+            </div>
+            {% endfor %}
+        </div>
+      </div>
+    </div>
+    
+    <div style="text-align: center;"> 
+        <button type="submit">Submit</button>
+    </div>
+  </form>
+
+{% if answers %}
+  <h2>Your Answers:</h2>
+  <div class="container"> 
+    <div class="column">
+      <ul>
+        {% for answer in answers %}
+        <li>{{ answer }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="column"> 
+      <ul>
+        {% for i in range(thai_words|length) %}
+        <li>{{ thai_words[i] }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+
+  <h2>Score: {{ score }}/{{ pairs|length }}</h2>
+
+  {% if exercise_number < total_exercises %}
+  <form method="GET" action="{{ url_for('word_match', unit=unit, exercise_number=exercise_number + 1) }}" style="text-align: right;">
+    <button type="submit" class="next-button">ไปยังหน้าถัดไป</button>
+  </form>
+  {% else %}
+  <form method="GET" action="{{ url_for('select_lesson') }}" style="text-align: right;"> 
+    <button type="submit" class="next-button">กลับไปยังหน้าเลือกบทเรียน</button>
+  </form>
+  {% endif %}
+
+  {% endif %}
+
+  <script>
+    function toggleRomaji() {
+      const romajiElements = document.querySelectorAll('.romaji');
+      romajiElements.forEach(el => {
+        el.style.display = el.style.display === 'none' ? 'inline' : 'none';
+      });
+    }
+
+  </script>
+</body>
+</html>

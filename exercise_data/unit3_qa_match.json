@@ -1,0 +1,114 @@
+[
+    {
+        "Page_ID": "U3_P74_059_1",
+        "Q_ID": "U3_QA_1",
+        "Question": {
+            "JP": "ここは　新大阪ですか",
+            "Kana": "ここは　しゃくとうですか",
+            "Romaji": "koko wa shakutou desu ka.",
+            "TH": "ที่นี่คือชินโอซาก้าใช่ไหมครับ"
+        },
+        "Answer": {
+            "JP": "はい、そうです",
+            "Kana": "はい、そうです",
+            "Romaji": "hai, sou desu.",
+            "TH": "ใช่ครับ"
+        }
+    },
+    {
+        "Page_ID": "U3_P74_059_2",
+        "Q_ID": "U3_QA_2",
+        "Question": {
+            "JP": "トイレは　どこですか",
+            "Kana": "トイレは　どこですか",
+            "Romaji": "toire wa doko desu ka.",
+            "TH": "ห้องน้ำอยู่ที่ไหนครับ"
+        },
+        "Answer": {
+            "JP": "あそこです",
+            "Kana": "あそこです",
+            "Romaji": "asoko desu.",
+            "TH": "อยู่ตรงโน้นค่ะ"
+        }
+    },
+    {
+        "Page_ID": "U3_P74_059_3",
+        "Q_ID": "U3_QA_3",
+        "Question": {
+            "JP": "山田さんは　どこですか",
+            "Kana": "やまださんは　どこですか",
+            "Romaji": "yamada san wa　doko desu ka.",
+            "TH": "คุณยามาตะอยู่ที่ไหนครับ"
+        },
+        "Answer": {
+            "JP": "会議室です",
+            "Kana": "かいぎしつです",
+            "Romaji": "kaigishitsu desu.",
+            "TH": "อยู่ที่ห้องประชุมค่ะ"
+        }
+    },
+    {
+        "Page_ID": "U3_P74_059_4",
+        "Q_ID": "U3_QA_4",
+        "Question": {
+            "JP": "事務所は　どちらですか。",
+            "Kana": "じむしゃは　どちらですか。",
+            "Romaji": "jimusha wa dochira desu ka.",
+            "TH": "สำนักงานอยู่ทางไหนครับ"
+        },
+        "Answer": {
+            "JP": "あちらです",
+            "Kana": "あちらです",
+            "Romaji": "achira desu.",
+            "TH": "อยู่ทางโน้นค่ะ"
+        }
+    },
+    {
+        "Page_ID": "U3_P74_059_5",
+        "Q_ID": "U3_QA_5",
+        "Question": {
+            "JP": "お国は　どちらですか",
+            "Kana": "おくには　どちらですか",
+            "Romaji": "okuni wa dochira desu ka.",
+            "TH": "คุณมาจากประเทศอะไรครับ"
+        },
+        "Answer": {
+            "JP": "アメリカです",
+            "Kana": "アメリカです",
+            "Romaji": "amerika desu.",
+            "TH": "ประเทศอเมริกาค่ะ"
+        }
+    },
+    {
+        "Page_ID": "U3_P74_059_6",
+        "Q_ID": "U3_QA_6",
+        "Question": {
+            "JP": "それは　どこの　靴ですか",
+            "Kana": "それは　どこの　くつですか",
+            "Romaji": "sore wa dokono kutsu desu ka.",
+            "TH": "นั่นเป็นรองเท้าของที่ไหนครับ"
+        },
+        "Answer": {
+            "JP": "イタリアの靴です",
+            "Kana": "イタリアのくつです",
+            "Romaji": "itaria no kutsu desu.",
+            "TH": "รองเท้าของอิตาลีค่ะ"
+        }
+    },
+    {
+        "Page_ID": "U3_P74_059_7",
+        "Q_ID": "U3_QA_7",
+        "Question": {
+            "JP": "この　時計は　いくらですか",
+            "Kana": "この　とけいは　いくらですか",
+            "Romaji": "kono tokei wa ikura desu ka.",
+            "TH": "นาฬิกาเรือนนี้ราคาเท่าไรครับ"
+        },
+        "Answer": {
+            "JP": "18,000 円です",
+            "Kana": "いちまんはっせん　 えんです",
+            "Romaji": "ichimanhassen en desu",
+            "TH": "18,600 เยนค่ะ"
+        }
+    }
+]

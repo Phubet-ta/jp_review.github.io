@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ลงทะเบียน</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}"> <!-- ลิงก์ไปยังไฟล์ CSS -->
+    <script>
+        // ตัวอย่างข้อมูลผู้ใช้ (ในทางปฏิบัติ คุณจะต้องเชื่อมต่อกับฐานข้อมูล)
+        const existingUsers = [
+            { username: "user1", email: "user1@example.com" },
+            { username: "user2", email: "user2@example.com" }
+        ];
+
+        function validateForm(event) {
+            event.preventDefault(); // หยุดการส่งฟอร์ม
+
+            const username = document.getElementById("username").value;
+            const email = document.getElementById("email").value;
+
+            // ตรวจสอบว่าชื่อผู้ใช้หรืออีเมลซ้ำ
+            const userExists = existingUsers.some(user => user.username === username);
+            const emailExists = existingUsers.some(user => user.email === email);
+
+            if (userExists) {
+                alert("ชื่อผู้ใช้ซ้ำ กรุณาใช้ชื่อผู้ใช้อื่น");
+                return;
+            }
+
+            if (emailExists) {
+                alert("อีเมลซ้ำ กรุณาใช้เมลอื่น");
+                return;
+            }
+
+            // หากไม่ซ้ำ ให้ส่งฟอร์ม (ในทางปฏิบัติคุณอาจจะส่งไปยังเซิร์ฟเวอร์)
+            alert("ลงทะเบียนสำเร็จ!");
+            // ในที่นี้คุณอาจจะเปลี่ยน action หรือ redirect ไปยังหน้าอื่น
+            // document.getElementById("registerForm").submit();
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>ลงทะเบียน</h1>
+    </header>
+
+    <main>
+        <form id="registerForm" onsubmit="validateForm(event)"> <!-- ใช้ฟังก์ชัน validateForm เมื่อส่งฟอร์ม -->
+            <label for="username">ชื่อผู้ใช้:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="email">อีเมล:</label>
+            <input type="email" id="email" name="email" required>
+
+            <button type="submit">ลงทะเบียน</button>
+        </form>
+
+        <p>มีบัญชีอยู่แล้ว? <a href="{{ url_for('login') }}">เข้าสู่ระบบที่นี่</a></p>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 เว็บทบทวนภาษาญี่ปุ่น | สงวนลิขสิทธิ์</p>
+    </footer>
+</body>
+</html>

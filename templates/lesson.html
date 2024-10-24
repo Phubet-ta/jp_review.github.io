@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>บทเรียน Unit {{ unit }} - Lesson {{ lesson }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Unit {{ unit }} - Lesson {{ lesson }}</h1>
+    </header>
+
+    <main>
+        <h2>เนื้อหาบทเรียน</h2>
+        <p>นี่คือบทเรียนที่คุณเลือก: Unit {{ unit }}, Lesson {{ lesson }}</p>
+
+        <h3>เลือกแบบฝึกหัด</h3>
+        <ul>
+
+            <!-- เพิ่มลิงก์แบบฝึกหัดเพิ่มเติมตามที่ต้องการ -->
+        </ul>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 เว็บทบทวนภาษาญี่ปุ่น</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>สร้างแบบฝึกหัด</title>
+</head>
+<body>
+    <h1>แบบฝึกหัดจากบทที่ {{ unit }}</h1>
+    {% for i, exercise_set in enumerate(exercises) %}
+        <h2>แบบทดสอบที่ {{ i + 1 }}</h2>
+        <ul>
+            {% for exercise in exercise_set %}
+                <li>
+                    <strong>ประเภท:</strong> {{ exercise['ประเภท'] }}<br>
+                    <strong>คำถาม:</strong> {{ exercise['คำถาม'] }}
+                    <!-- แสดงคำตอบถ้ามี -->
+                </li>
+            {% endfor %}
+        </ul>
+    {% endfor %}
+</body>
+</html>

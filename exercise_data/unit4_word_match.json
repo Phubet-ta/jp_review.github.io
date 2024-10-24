@@ -1,0 +1,602 @@
+[
+    {
+        "exercise_number": 1,
+        "pairs": [
+            {
+                "index": 1,
+                "jp": "起きます",
+                "kana": "おきます",
+                "romaji": "okimasu",
+                "thai": "ตื่นนอน"
+            },
+            {
+                "index": 2,
+                "jp": "寝ます",
+                "kana": "ねます",
+                "romaji": "nemasu",
+                "thai": "นอน, เข้านอน"
+            },
+            {
+                "index": 3,
+                "jp": "働きます",
+                "kana": "はたらきます",
+                "romaji": "hatarakimasu",
+                "thai": "ทำงาน"
+            },
+            {
+                "index": 4,
+                "jp": "休みます",
+                "kana": "やすみます",
+                "romaji": "yasumimasu",
+                "thai": "พัก, พักผ่อน, หยุดพัก"
+            },
+            {
+                "index": 5,
+                "jp": "勉強します",
+                "kana": "べんきょうします",
+                "romaji": "benkyoushimasu",
+                "thai": "เรียน"
+            }
+        ]
+    },
+    {
+        "exercise_number": 2,
+        "pairs": [
+            {
+                "index": 1,
+                "jp": "終わります",
+                "kana": "おわります",
+                "romaji": "owarimasu",
+                "thai": "เสร็จ (งาน), (โรงเรียน) เลิก"
+            },
+            {
+                "index": 2,
+                "jp": "デパート",
+                "kana": "デパート",
+                "romaji": "depaーto",
+                "thai": "ห้างสรรพสินค้า"
+            },
+            {
+                "index": 3,
+                "jp": "銀行",
+                "kana": "ぎんこう",
+                "romaji": "ginkou",
+                "thai": "ธนาคาร"
+            },
+            {
+                "index": 4,
+                "jp": "郵便局",
+                "kana": "ゆうびんきょく",
+                "romaji": "yuubinkyoku",
+                "thai": "ที่ทำการไปรษณีย์"
+            },
+            {
+                "index": 5,
+                "jp": "図書かん",
+                "kana": "としょかん",
+                "romaji": "toshokan",
+                "thai": "หอสมุด, ห้องสมุด"
+            }
+        ]
+    },
+    {
+        "exercise_number": 3,
+        "pairs": [
+            {
+                "index": 1,
+                "jp": "美術館",
+                "kana": "びじゅつかん",
+                "romaji": "bijiゅtsukan",
+                "thai": "หอศิลป์"
+            },
+            {
+                "index": 2,
+                "jp": "今",
+                "kana": "いま",
+                "romaji": "ima",
+                "thai": "ตอนนี้, ขณะนี้, เดี๋ยวนี้"
+            },
+            {
+                "index": 3,
+                "jp": "一時",
+                "kana": "ーじ",
+                "romaji": "ーji",
+                "thai": "-โมง, - นาฬิกา"
+            },
+            {
+                "index": 4,
+                "jp": "一分",
+                "kana": "一ぶん",
+                "romaji": "一bun",
+                "thai": "-นาที"
+            },
+            {
+                "index": 5,
+                "jp": "半",
+                "kana": "はん",
+                "romaji": "han",
+                "thai": "ครึ่ง"
+            }
+        ]
+    },
+    {
+        "exercise_number": 4,
+        "pairs": [
+            {
+                "index": 1,
+                "jp": "何時",
+                "kana": "なんじ",
+                "romaji": "nanji",
+                "thai": "กี่โมง"
+            },
+            {
+                "index": 2,
+                "jp": "何分",
+                "kana": "なんぷん",
+                "romaji": "nanpun",
+                "thai": "กี่นาที"
+            },
+            {
+                "index": 3,
+                "jp": "午前",
+                "kana": "ごぜん",
+                "romaji": "gozen",
+                "thai": "a.m., ช่วงเช้า"
+            },
+            {
+                "index": 4,
+                "jp": "午後",
+                "kana": "ごご",
+                "romaji": "gogo",
+                "thai": "p.m., ช่วงบ่าย"
+            },
+            {
+                "index": 5,
+                "jp": "朝",
+                "kana": "あさ",
+                "romaji": "asa",
+                "thai": "เช้า"
+            }
+        ]
+    },
+    {
+        "exercise_number": 5,
+        "pairs": [
+            {
+                "index": 1,
+                "jp": "昼",
+                "kana": "ひる",
+                "romaji": "hiru",
+                "thai": "กลางวัน, เที่ยง"
+            },
+            {
+                "index": 2,
+                "jp": "晩（夜）",
+                "kana": "ばん（よる）",
+                "romaji": "ban（yoru）",
+                "thai": "เย็น, กลางคืน"
+            },
+            {
+                "index": 3,
+                "jp": "おととい",
+                "kana": "おととい",
+                "romaji": "ototoi",
+                "thai": "เมื่อวานซีน"
+            },
+            {
+                "index": 4,
+                "jp": "きのう",
+                "kana": "きのう",
+                "romaji": "kinou",
+                "thai": "เมื่อวานนี้"
+            },
+            {
+                "index": 5,
+                "jp": "きょう",
+                "kana": "きょう",
+                "romaji": "kyou",
+                "thai": "วันนี้"
+            }
+        ]
+    },
+    {
+        "exercise_number": 6,
+        "pairs": [
+            {
+                "index": 1,
+                "jp": "あした",
+                "kana": "あした",
+                "romaji": "ashita",
+                "thai": "พรุ่งนี้"
+            },
+            {
+                "index": 2,
+                "jp": "あさって",
+                "kana": "あさって",
+                "romaji": "asatte",
+                "thai": "มะรืนนี้"
+            },
+            {
+                "index": 3,
+                "jp": "けさ",
+                "kana": "けさ",
+                "romaji": "kesa",
+                "thai": "เมื่อเช้า"
+            },
+            {
+                "index": 4,
+                "jp": "今晚",
+                "kana": "こんばん",
+                "romaji": "konban",
+                "thai": "เย็นนี้, คืนนี้"
+            },
+            {
+                "index": 5,
+                "jp": "休み",
+                "kana": "やすみ",
+                "romaji": "yasumi",
+                "thai": "วันหยุด"
+            }
+        ]
+    },
+    {
+        "exercise_number": 7,
+        "pairs": [
+            {
+                "index": 1,
+                "jp": "昼休み",
+                "kana": "ひるやすみ",
+                "romaji": "hiruyasumi",
+                "thai": "พักกลางวัน, พักเที่ยง"
+            },
+            {
+                "index": 2,
+                "jp": "試験",
+                "kana": "しけん",
+                "romaji": "shiken",
+                "thai": "การสอบ, ข้อสอบ"
+            },
+            {
+                "index": 3,
+                "jp": "会議",
+                "kana": "かいぎ",
+                "romaji": "kaigi",
+                "thai": "การประชุม (~をします: ประชุม)"
+            },
+            {
+                "index": 4,
+                "jp": "映画",
+                "kana": "えいが",
+                "romaji": "eiga",
+                "thai": "ภาพยนตร์, หนัง"
+            },
+            {
+                "index": 5,
+                "jp": "毎朝",
+                "kana": "まいあさ",
+                "romaji": "maiasa",
+                "thai": "ทุกเข้า"
+            }
+        ]
+    },
+    {
+        "exercise_number": 8,
+        "pairs": [
+            {
+                "index": 1,
+                "jp": "毎晚",
+                "kana": "まいばん",
+                "romaji": "maiban",
+                "thai": "ทุกคืน"
+            },
+            {
+                "index": 2,
+                "jp": "毎日",
+                "kana": "まいにち",
+                "romaji": "mainichi",
+                "thai": "ทุกวัน"
+            },
+            {
+                "index": 3,
+                "jp": "月曜日",
+                "kana": "げつようび",
+                "romaji": "getsuyoubi",
+                "thai": "วันจันทร์"
+            },
+            {
+                "index": 4,
+                "jp": "火曜日",
+                "kana": "かようび",
+                "romaji": "kayoubi",
+                "thai": "วันอังคาร"
+            },
+            {
+                "index": 5,
+                "jp": "水曜日",
+                "kana": "すいようび",
+                "romaji": "suiyoubi",
+                "thai": "วันพุธ"
+            }
+        ]
+    },
+    {
+        "exercise_number": 9,
+        "pairs": [
+            {
+                "index": 1,
+                "jp": "木曜日",
+                "kana": "もくようび",
+                "romaji": "mokuyoubi",
+                "thai": "วันพฤหัสบดี"
+            },
+            {
+                "index": 2,
+                "jp": "金曜日",
+                "kana": "きんようび",
+                "romaji": "kinyoubi",
+                "thai": "วันศุกร์"
+            },
+            {
+                "index": 3,
+                "jp": "土曜日",
+                "kana": "どようび",
+                "romaji": "doyoubi",
+                "thai": "วันเสาร์"
+            },
+            {
+                "index": 4,
+                "jp": "日曜日",
+                "kana": "にちようび",
+                "romaji": "nichiyoubi",
+                "thai": "วันอาทิตย์"
+            },
+            {
+                "index": 5,
+                "jp": "何曜日",
+                "kana": "なんようび",
+                "romaji": "nanyoubi",
+                "thai": "วันอะไร (ในรอบสัปดาห์)"
+            }
+        ]
+    },
+    {
+        "exercise_number": 10,
+        "pairs": [
+            {
+                "index": 1,
+                "jp": "から",
+                "kana": "から",
+                "romaji": "kara",
+                "thai": "จาก ~, ตั้งแต่ ~"
+            },
+            {
+                "index": 2,
+                "jp": "まど",
+                "kana": "まど",
+                "romaji": "mado",
+                "thai": "ถึง ~, จนถึง ~"
+            },
+            {
+                "index": 3,
+                "jp": "と",
+                "kana": "と",
+                "romaji": "to",
+                "thai": "~ กับ ~,~ และ ~ (ช้เชื่อมคำนามกับคำนาม)"
+            },
+            {
+                "index": 4,
+                "jp": "大変ですね",
+                "kana": "たいへんですね",
+                "romaji": "taihendesune",
+                "thai": "ลำบากหน่อยนะ, แย่หน่อยนะ (ใช้แสดงความเห็นใจ)"
+            },
+            {
+                "index": 5,
+                "jp": "番号",
+                "kana": "ばんごう",
+                "romaji": "bangou",
+                "thai": "หมายเลข, เบอร์ (โทรศัพท์)"
+            }
+        ]
+    },
+    {
+        "exercise_number": 11,
+        "pairs": [
+            {
+                "index": 1,
+                "jp": "何番",
+                "kana": "なんばん",
+                "romaji": "nanban",
+                "thai": "หมายเลขอะไร, เบอร์ (โทรศัพท์) อะไร"
+            },
+            {
+                "index": 2,
+                "jp": "そちら",
+                "kana": "そちら",
+                "romaji": "sochira",
+                "thai": "ทางคุณ (คู่สนทนา สถานที่ ฯลฯ)"
+            },
+            {
+                "index": 3,
+                "jp": "ニューヨーク",
+                "kana": "ニューヨーク",
+                "romaji": "nyu-yo-ku",
+                "thai": "นิวยอร์ก"
+            },
+            {
+                "index": 4,
+                "jp": "ペキン",
+                "kana": "ペキン",
+                "romaji": "pekin",
+                "thai": "ปักกิ่ง "
+            },
+            {
+                "index": 5,
+                "jp": "ロサンゼルス",
+                "kana": "ロサンゼルス",
+                "romaji": "rosanzerusu",
+                "thai": "ลอสแองเจลิส"
+            }
+        ]
+    },
+    {
+        "exercise_number": 12,
+        "pairs": [
+            {
+                "index": 1,
+                "jp": "ロンドん",
+                "kana": "ロンドん",
+                "romaji": "rondon",
+                "thai": "ลอนดอน"
+            },
+            {
+                "index": 2,
+                "jp": "起きます",
+                "kana": "おきます",
+                "romaji": "okimasu",
+                "thai": "ตื่นนอน"
+            },
+            {
+                "index": 3,
+                "jp": "寝ます",
+                "kana": "ねます",
+                "romaji": "nemasu",
+                "thai": "นอน, เข้านอน"
+            },
+            {
+                "index": 4,
+                "jp": "働きます",
+                "kana": "はたらきます",
+                "romaji": "hatarakimasu",
+                "thai": "ทำงาน"
+            },
+            {
+                "index": 5,
+                "jp": "休みます",
+                "kana": "やすみます",
+                "romaji": "yasumimasu",
+                "thai": "พัก, พักผ่อน, หยุดพัก"
+            }
+        ]
+    },
+    {
+        "exercise_number": 13,
+        "pairs": [
+            {
+                "index": 1,
+                "jp": "勉強します",
+                "kana": "べんきょうします",
+                "romaji": "benkyoushimasu",
+                "thai": "เรียน"
+            },
+            {
+                "index": 2,
+                "jp": "終わります",
+                "kana": "おわります",
+                "romaji": "owarimasu",
+                "thai": "เสร็จ (งาน), (โรงเรียน) เลิก"
+            },
+            {
+                "index": 3,
+                "jp": "デパート",
+                "kana": "デパート",
+                "romaji": "depaーto",
+                "thai": "ห้างสรรพสินค้า"
+            },
+            {
+                "index": 4,
+                "jp": "銀行",
+                "kana": "ぎんこう",
+                "romaji": "ginkou",
+                "thai": "ธนาคาร"
+            },
+            {
+                "index": 5,
+                "jp": "郵便局",
+                "kana": "ゆうびんきょく",
+                "romaji": "yuubinkyoku",
+                "thai": "ที่ทำการไปรษณีย์"
+            }
+        ]
+    },
+    {
+        "exercise_number": 14,
+        "pairs": [
+            {
+                "index": 1,
+                "jp": "図書かん",
+                "kana": "としょかん",
+                "romaji": "toshokan",
+                "thai": "หอสมุด, ห้องสมุด"
+            },
+            {
+                "index": 2,
+                "jp": "美術館",
+                "kana": "びじゅつかん",
+                "romaji": "bijiゅtsukan",
+                "thai": "หอศิลป์"
+            },
+            {
+                "index": 3,
+                "jp": "今",
+                "kana": "いま",
+                "romaji": "ima",
+                "thai": "ตอนนี้, ขณะนี้, เดี๋ยวนี้"
+            },
+            {
+                "index": 4,
+                "jp": "一時",
+                "kana": "ーじ",
+                "romaji": "ーji",
+                "thai": "-โมง, - นาฬิกา"
+            },
+            {
+                "index": 5,
+                "jp": "一分",
+                "kana": "一ぶん",
+                "romaji": "一bun",
+                "thai": "-นาที"
+            }
+        ]
+    },
+    {
+        "exercise_number": 15,
+        "pairs": [
+            {
+                "index": 1,
+                "jp": "半",
+                "kana": "はん",
+                "romaji": "han",
+                "thai": "ครึ่ง"
+            },
+            {
+                "index": 2,
+                "jp": "何時",
+                "kana": "なんじ",
+                "romaji": "nanji",
+                "thai": "กี่โมง"
+            },
+            {
+                "index": 3,
+                "jp": "何分",
+                "kana": "なんぷん",
+                "romaji": "nanpun",
+                "thai": "กี่นาที"
+            },
+            {
+                "index": 4,
+                "jp": "午前",
+                "kana": "ごぜん",
+                "romaji": "gozen",
+                "thai": "a.m., ช่วงเช้า"
+            },
+            {
+                "index": 5,
+                "jp": "午後",
+                "kana": "ごご",
+                "romaji": "gogo",
+                "thai": "p.m., ช่วงบ่าย"
+            }
+        ]
+    }
+]

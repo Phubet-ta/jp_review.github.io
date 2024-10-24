@@ -1,0 +1,188 @@
+[
+    {
+        "ID": "U3_P87_4_0",
+        "Q_ID": "U3_WC_1",
+        "Sentence": {
+            "JP": NaN,
+            "Kana": "(わたし は)ミラーです",
+            "Romaji": "(watashi wa) miraー desu.",
+            "Translate": "(I am) a mirror",
+            "TH": "ฉันชื่อ mira"
+        },
+        "Blank_Sentence": {
+            "Kana": "() ミラーです",
+            "Romaji": "() miraー desu."
+        },
+        "Choices": {
+            "Kana": [
+                "わたし",
+                "わたしは",
+                "わたしの"
+            ],
+            "Romaji": [
+                "watashi",
+                "watashi wa",
+                "watashino"
+            ]
+        },
+        "Answer": {
+            "Kana": "わたしは",
+            "Romaji": "watashi wa"
+        }
+    },
+    {
+        "ID": "U3_P87_4_1",
+        "Q_ID": "U3_WC_2",
+        "Sentence": {
+            "JP": NaN,
+            "Kana": "(これ) はドイツのくるまです",
+            "Romaji": "(kore) wa doitsu no kuruma desu.",
+            "Translate": "(This) is a German car.",
+            "TH": "นี่คือรถของเยอรมัน"
+        },
+        "Blank_Sentence": {
+            "Kana": "() はドイツのくるまです",
+            "Romaji": "() wa doitsu no kuruma desu."
+        },
+        "Choices": {
+            "Kana": [
+                "これ",
+                "この",
+                "ここ"
+            ],
+            "Romaji": [
+                "kore",
+                "kono",
+                "koko"
+            ]
+        },
+        "Answer": {
+            "Kana": "これ",
+            "Romaji": "kore"
+        }
+    },
+    {
+        "ID": "U3_P87_4_2",
+        "Q_ID": "U3_WC_3",
+        "Sentence": {
+            "JP": NaN,
+            "Kana": "(その) かばんはわたしのです",
+            "Romaji": "(sono) kaban wa watashi no desu.",
+            "Translate": "(The) bag is mine.",
+            "TH": "นั่นคือกระเป๋าของฉัน"
+        },
+        "Blank_Sentence": {
+            "Kana": "() かばんはわたしのです",
+            "Romaji": "() kaban wa watashi no desu."
+        },
+        "Choices": {
+            "Kana": [
+                "それ",
+                "その",
+                "そこ"
+            ],
+            "Romaji": [
+                "sore",
+                "sono",
+                "soko"
+            ]
+        },
+        "Answer": {
+            "Kana": "その",
+            "Romaji": "sono"
+        }
+    },
+    {
+        "ID": "U3_P87_4_3",
+        "Q_ID": "U3_WC_4",
+        "Sentence": {
+            "JP": NaN,
+            "Kana": "じむしょは (あそこ) です",
+            "Romaji": "jimusho wa (asoko) desu.",
+            "Translate": "Jimusho is (over there)",
+            "TH": "ออฟฟิศอยู่ทางนั้น"
+        },
+        "Blank_Sentence": {
+            "Kana": "じむしょは () です",
+            "Romaji": "jimusho wa () desu."
+        },
+        "Choices": {
+            "Kana": [
+                "あれ",
+                "あの",
+                "あそこ"
+            ],
+            "Romaji": [
+                "are",
+                "ano",
+                "asoko"
+            ]
+        },
+        "Answer": {
+            "Kana": "あそこ",
+            "Romaji": "asoko"
+        }
+    },
+    {
+        "ID": "U3_P87_4_4",
+        "Q_ID": "U3_WC_5",
+        "Sentence": {
+            "JP": NaN,
+            "Kana": "すみません。でんわは (どこ) ですか。",
+            "Romaji": "sumimasen。denwa wa (doko) desu ka.",
+            "Translate": "sorry. Where is the phone?",
+            "TH": "ขอโทษนะ. มือถืออยู่ที่ไหน"
+        },
+        "Blank_Sentence": {
+            "Kana": "すみません。でんわは () ですか。",
+            "Romaji": "sumimasen。denwa wa () desu ka."
+        },
+        "Choices": {
+            "Kana": [
+                "だれ",
+                "なん",
+                "どこ"
+            ],
+            "Romaji": [
+                "dare",
+                NaN,
+                "doko"
+            ]
+        },
+        "Answer": {
+            "Kana": "どこ",
+            "Romaji": "doko"
+        }
+    },
+    {
+        "ID": "U3_P87_4_5",
+        "Q_ID": "U3_WC_6",
+        "Sentence": {
+            "JP": NaN,
+            "Kana": "このくつは (わたしの) です",
+            "Romaji": "kono kutsu wa (watashino) desu.",
+            "Translate": "These shoes are (mine)",
+            "TH": "นี่คือรองเท้าของฉัน"
+        },
+        "Blank_Sentence": {
+            "Kana": "このくつは () です",
+            "Romaji": "kono kutsu wa () desu."
+        },
+        "Choices": {
+            "Kana": [
+                "わたし",
+                "わたしは",
+                "わたしの"
+            ],
+            "Romaji": [
+                "watashi",
+                "watashiha",
+                "watashino"
+            ]
+        },
+        "Answer": {
+            "Kana": "わたしの",
+            "Romaji": "watashino"
+        }
+    }
+]

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Match - Exercise {{ exercise_number }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='word_match.css') }}">
+</head>
+<body>
+    <h1>Word Match</h1>
+    <form method="POST">
+        <div class="container">
+            <!-- กลุ่มซ้าย (Kana) -->
+            <div class="column">
+                {% for pair in pairs %}
+                    <div class="input-box">
+                        <label>{{ pair.kana }}:</label>
+                        <input type="text" name="answer" required>
+                    </div>
+                {% endfor %}
+            </div>
+
+            <!-- กลุ่มขวา (Thai) -->
+            <div class="column">
+                {% for thai in thai_words %}
+                    <div class="word-box">{{ loop.index }}. {{ thai }}</div>
+                {% endfor %}
+            </div>
+        </div>
+        <button type="submit">Submit</button>
+        
+        <button type="button" onclick="toggleRomaji()">Show Romaji</button>
+
+        <script>
+        function toggleRomaji() {
+            const kanaElements = document.querySelectorAll('.input-box label');
+            kanaElements.forEach(label => {
+                const romaji = label.getAttribute('data-romaji');
+                if (romaji) {
+                    label.textContent = label.textContent.includes('(') ? label.textContent.split(' (')[0] : `${label.textContent} (${romaji})`;
+                }
+            });
+        }
+        </script>
+    </form>
+
+    {% if answers %}
+        <h2>Your Answers:</h2>
+        <ul>
+            {% for answer in answers %}
+                <li>{{ answer }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+</body>
+</html>

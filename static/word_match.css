@@ -1,0 +1,161 @@
+/* ปรับแต่งพื้นฐาน */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+}
+
+/* ปรับแต่งหัวเรื่อง */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* คอนเทนเนอร์หลัก */
+.container {
+    display: flex; /* กำหนดให้เรียง element ในแนวนอน */
+    justify-content: space-between; /* จัดช่องว่างระหว่างคอลัมน์ */
+    margin-top: 20px; /* กำหนดระยะห่างด้านบน */
+}
+
+/* คอลัมน์ */
+.column {
+    display: flex; /* กำหนดให้เรียง element ในแนวนอน */
+    flex-direction: column; /* กำหนดให้เรียง element ในแนวตั้ง */
+    flex: 1; /* กำหนดให้คอลัมน์ขยายตามขนาด */
+    margin: 0 10px; 
+}
+
+/* กล่องคำ */
+.word-box {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    text-align: center;
+}
+
+.word-box:hover {
+    transform: scale(1.02);
+}
+
+/* กล่องกรอกข้อมูล */
+.input-box {
+    margin-bottom: 15px;
+}
+
+/* กรอกข้อมูล */
+input[type="text"] {
+    padding: 10px;
+    width: 100%; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* ปุ่ม */
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* รายการคำตอบ */
+h2 {
+    margin-top: 20px;
+    color: #333;
+}
+/* คอนเทนเนอร์หลัก */
+.container {
+    display: flex; /* กำหนดให้เรียง element ในแนวนอน */
+    justify-content: space-between; /* จัดช่องว่างระหว่างคอลัมน์ */
+    margin-top: 20px; /* กำหนดระยะห่างด้านบน */
+}
+
+/* คอลัมน์ */
+.column {
+    display: flex; /* กำหนดให้เรียง element ในแนวนอน */
+    flex-direction: column; /* กำหนดให้เรียง element ในแนวตั้ง */
+    flex: 1; /* กำหนดให้คอลัมน์ขยายตามขนาด */
+    margin: 0 10px; 
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    height: 24px;
+    background: #e9ecef;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+
+}
+
+/* เพิ่มเติม */
+
+.matching-area {
+    display: flex;
+    flex-direction: column;  /* เรียง element ในแนวตั้ง */
+    align-items: center;    /* จัด element ให้อยู่กึ่งกลางในแนวนอน */
+    margin-top: 0px;
+}
+
+.matching-area div {
+    display: flex;
+    align-items: center;  /* จัด label และ select ให้อยู่กึ่งกลางในแนวตั้ง */
+    margin-bottom: 10px;
+}
+
+#showRomajiBtn {
+    margin-bottom: 20px; /* เพิ่มระยะห่างด้านล่างปุ่ม */
+}
+
+h2 {
+    text-align: left; /* จัดหัวเรื่องให้อยู่ซ้าย */
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.matching-area select {
+    font-size: 16px;
+    width: 100%; 
+    border: none; /* ลบกรอบ */
+    text-align: center;
+}
+  
+  .matching-area select option {
+    padding: 10px;  /* ปรับระยะห่างภายในตามต้องการ */
+}
+
+/* เพิ่ม style ให้กับ .matching-area div */
+.matching-area div {
+    display: flex;
+    width: 100%; 
+    align-items: center;
+    margin-bottom: 10px;           /* กำหนดความกว้างให้เท่ากับ select box */
+    border: 1px solid #ccc;  /* เพิ่ม border */
+    background-color: #fff;  /* เพิ่ม background color */
+    border-radius: 5px;     /* เพิ่ม border-radius */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* เพิ่ม box-shadow */
+    padding: 10px;          /* เพิ่ม padding */
+  }
+
